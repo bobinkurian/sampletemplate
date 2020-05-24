@@ -115,6 +115,9 @@ header .navbar-standard ul.navbar-nav > li > a:not(:hover) {
 	margin-bottom:20px;
 	margin:0 auto;
   }
+  .mobileFontHeader{
+	  font-size:32px;
+  }
 }
 .carousel-control-next-icon,
 .carousel-control-prev-icon {

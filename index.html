@@ -159,24 +159,25 @@ a:hover,a:active{color:#ff8040;}[type=button],[type=reset],[type=submit],button{
 							
 						</div>
 					</section>
-					<div id="rotationJs" style="position: absolute;  left: 50%;  top: 50%;  transform: translate(-50%, -50%);">
-						<h2 class="font-secondary mb-25px font-weight-light line-height-normal" align="center">
-							<span class="text-black">
+					<div id="rotationJs" style="position: absolute;  left: 50%;  top: 50%;  transform: translate(-50%, -50%);z-index:1000">
+						<h2 class="font-secondary font-weight-light line-height-normal" align="center">
+							<span class="text-black mobileFontHeader" >
 								<span class="d-block">Choose your own</span>
 								<span id="js-rotating" class="font-weight-bold">Way, Style, Method</span> 
 								to Secure Your Organization
 							</span>
 						</h2>
+						<div class="col-12 text-center row">
+							<div class="col-md-6" align="right"style="margin-bottom:10px;">
+								<div id="home_Service1" class="Pricing-toggle-button serviceActiveOrange" onclick="window.location = '#Services'">Offensive Security Services</div>
+							</div>
+							<div class="col-md-6" align="left">
+								<div id="home_Service2" class="Pricing-toggle-button serviceActive" onclick="window.location = '#Services'">Defensive Security Services</div>
+							</div>
+						</div>
 						
 					</div>
-					<div class="col-12 text-center row" style="position:absolute;top:70%;left:50%; transform: translate(-50%, -50%);z-index:100">
-						<div class="col-md-6" align="right">
-							<div id="home_Service1" class="Pricing-toggle-button serviceActiveOrange" onclick="window.location = '#Services'">Offensive Security Services</div>
-						</div>
-						<div class="col-md-6" align="left">
-							<div id="home_Service2" class="Pricing-toggle-button serviceActive" onclick="window.location = '#Services'">Defensive Security Services</div>
-						</div>
-					</div>
+					
 						
 						
 				</div>
