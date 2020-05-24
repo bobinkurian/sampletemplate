@@ -1,0 +1,490 @@
+  
+header a.logo img {
+    width: 160px;
+}
+
+header:not(.header-appear) .navbar-standard.light-menu.transparent ul.navbar-nav > li > a {
+  color: #000; }
+  
+header:not(.header-appear) .navbar-standard.standard.light-menu .sidenav-toggler {
+    border-left: 1px solid #666;
+}
+
+header:not(.header-appear) .navbar.light-menu .sidenav-toggler .toggler-icon {
+    background-color: #000;
+}
+
+header .navbar-standard ul.navbar-nav > li > a:not(:hover) {
+	color:#000;
+}
+
+#SendEmail a{
+	color:#FFF;
+	text-decoration:none;
+}
+
+#SendEmail a:hover{
+	text-decoration:underline;
+}
+
+.paddingTop
+{
+	padding-top:175px;	
+}
+
+.values-box {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border: 1px solid #F7951E;
+    padding: 24px;
+    height: 100%;
+}
+.text-center {
+    text-align: center!important;
+}
+.mt-3 {
+    margin-top: 1rem!important;
+}
+
+.bg-light-custom {
+    background-color: #FFF;
+    margin-top: -50px;
+}
+
+.values-title {
+    position: absolute;
+    margin-top: -35px;
+}
+
+.Pricing-toggle-button {
+	width:300px;
+    padding: 10px 0px;
+    user-select: none;
+    cursor: pointer;
+    z-index: 1;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+	border-radius:30px;
+	text-align:center;
+	
+}
+
+.serviceActive
+{
+    background-size: 200% auto;
+    background-image: -webkit-gradient(linear, left top, right top, from(#5192e1), color-stop(51%, #23ced5), to(#5192e1));
+	color:#fff;
+	border-radius:30px;
+}
+
+.hideDiv{
+	display:none;
+}
+
+@media only screen and (max-width: 768px) {
+ .paddingTop {
+    padding-top:40px;	
+	padding-bottom:40px;	
+  }
+  .HideInMobile{
+	display:none;
+  }
+  .iFrameDiv{
+	padding-top:40px;	
+	padding-bottom:40px;
+  }
+  .mTextAlign{
+	text-align:center;
+  }
+  .Pricing-toggle-button{
+	margin-bottom:20px;
+	margin:0 auto;
+  }
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color:#999;
+  width:30px;
+  height:30px;
+  border-radius:15px;
+  background-size:10px 10px;
+}
+.carousel-control-next,
+.carousel-control-prev{
+	width:40px;
+	height:40px;
+	position:absolute;
+	top:300px;
+}
+.carousel-control-next{
+	right:-35px;
+}
+.carousel-control-prev{
+	left:-35px;
+}
+
+
+
+
+
+.wrapper {
+    padding: 50px 50px;
+    max-width: 1200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+        margin-top: 80px;
+}
+
+.right {float: right !important;}
+/* Image zoom on hover + Overlay colour */
+.parent {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.child {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+/* Several different images */
+.bg-one {background-image: url(https://media.timeout.com/images/101602611/image.jpg);}
+.bg-two {background-image: url(http://s1.it.atcdn.net/wp-content/uploads/2015/08/2-London.jpg);}
+.bg-three {background-image: url(https://media.timeout.com/images/101484105/image.jpg);}
+.bg-four {background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Hollywood_Sign.jpg/1280px-Hollywood_Sign.jpg);}
+.bg-five {background-image: url(http://www.travelandleisure.com/sites/default/files/styles/tnl_redesign_article_landing_page/public/1453920892/DUBAI-554088081-ABOVE0116.jpg?itok=dcoZnCrc);}
+.bg-six {background-image: url(http://blog.whitepages.com/wp-content/uploads/2015/04/san-franc.jpg);}
+
+.parent:hover .child, .parent:focus .child {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.parent:hover .child:before, .parent:focus .child:before {
+    display: block;
+}
+
+.parent:hover .ContactSubContent, .parent:focus .ContactSubContent {
+    display: block;
+}
+
+.ContactSubContent {
+    display: none;
+    font-size: 15px;
+    color: #ffffff !important;
+    font-family: sans-serif;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+	margin-top:50px;
+}
+
+.child:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(52,73,94,0.75);
+}
+
+/* Media Queries */
+@media screen and (max-width: 960px) {
+    .parent {width: 100%; margin: 20px 0px}
+        .wrapper {padding: 20px 20px;}
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Show 4th slide on md if col-md-4*/
+    .carousel-inner .active.col-md-4.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -33.3333%;  /*change this with javascript in the future*/
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+    /* Show 3rd slide on sm if col-sm-6*/
+    .carousel-inner .active.col-sm-6.carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -50%;  /*change this with javascript in the future*/
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+}
+@media (min-width: 576px) {
+    .carousel-item {
+        margin-right: 0;
+    }
+    /* show 2 items */
+    .carousel-inner .active + .carousel-item {
+        display: block;
+    }
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item {
+        transition: none;
+    }
+    .carousel-inner .carousel-item-next {
+        position: relative;
+        transform: translate3d(0, 0, 0);
+    }
+    /* left or forward direction */
+    .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+    .carousel-item-next.carousel-item-left + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    /* farthest right hidden item must be also positioned for animations */
+    .carousel-inner .carousel-item-prev.carousel-item-right {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    /* right or prev direction */
+    .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    .carousel-item-prev.carousel-item-right + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+}
+/* MD */
+@media (min-width: 768px) {
+    /* show 3rd of 3 item slide */
+    .carousel-inner .active + .carousel-item + .carousel-item {
+        display: block;
+    }
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
+        transition: none;
+    }
+    .carousel-inner .carousel-item-next {
+        position: relative;
+        transform: translate3d(0, 0, 0);
+    }
+    /* left or forward direction */
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    /* right or prev direction */
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+}
+/* LG */
+
+
+
+@media (min-width: 991px) {
+    /* show 4th item 
+    .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item {
+        display: block;
+    }
+	*/
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item  {
+        transition: none;
+    }
+    /* Show 5th slide on lg if col-lg-3 */
+    .carousel-inner .active.col-lg-3.carousel-item + .carousel-item + .carousel-item + .carousel-item  {
+        position: absolute;
+        top: 0;
+        right: -25%;  /*change this with javascript in the future*/
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    /* left or forward direction */
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item  {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    /* right or prev direction //t - previous slide direction last item animation fix */
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item{
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+		color: red;
+    }
+}
+
+
+
+.pricing-item {
+    position: relative;
+	height:150px;
+    padding: 2.5rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+    -webkit-border-radius: 0;
+    text-align: center;
+    overflow: hidden;
+    background: #fff;
+	cursor:pointer;
+}
+.pricing-item:hover {
+	color:#FFF;
+	Background-color:#26313c;
+}
+
+.darkcolor{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pricing-item:hover .darkcolor{
+color:#FFF;
+}
+
+.SliderContent{
+	font-size: 15px;
+    color: #808080;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+}
+.pricing-item-body{
+	text-align:left;
+	padding-top:30px;
+}
+
+#data_Service1 .pricing-item-body{
+	min-height:500px;
+}
+#data_Service2 .pricing-item-body{
+	min-height:400px;
+}
+
+.pricing-item .button {
+    border-color: #fff;
+    background: #24cdd5;
+    color: #fff;
+    display: table;
+    margin: 0 auto;
+	padding:10px;
+	padding-left:20px;
+	padding-right:20px;
+	border-radius:15px;
+}
+.pricing-item:hover .button {
+	background: none;
+	border:1px solid #FFF;
+}
+
+.pricing-item-header {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* The Modal (background) */
+.modalPopUp {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 100; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modalPopUp-content {
+	position:relative;
+	background-color: #fefefe;
+	margin: 15% auto; /* 15% from the top and centered */
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.modalPopUp-close {
+	height:40px;
+	width:40px;
+	text-align:center;
+	right:10px;
+	top:10px;
+	position:absolute;
+	color: #aaa;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.modalPopUp-close:hover,
+.modalPopUp-close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#ModelPopupHeading{
+	padding-top:10px;
+	font-weight:bold;
+	text-align:center;
+	text-decoration:underline;
+}
+
+.ContactUsInfo{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
