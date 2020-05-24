@@ -26,6 +26,10 @@ header .navbar-standard ul.navbar-nav > li > a:not(:hover) {
 	color:#000;
 }
 
+.mobile_nodivheight30{
+	  margin-top:30px;
+}
+
 #SendEmail a{
 	color:#FFF;
 	text-decoration:none;
@@ -119,34 +123,6 @@ header .navbar-standard ul.navbar-nav > li > a:not(:hover) {
 	display:none;
 }
 
-@media only screen and (max-width: 768px) {
- .paddingTop {
-    padding-top:40px;	
-	padding-bottom:40px;	
-  }
-  .HideInMobile{
-	display:none;
-  }
-  .iFrameDiv{
-	padding-top:40px;	
-	padding-bottom:40px;
-  }
-  .mTextAlign{
-	text-align:center;
-  }
-  .Pricing-toggle-button{
-	margin-bottom:20px;
-	margin:0 auto;
-  }
-  
-  .Pricing-toggle-button:hover{
-	  border:1px solid #AAA;
-  }
-  
-  .mobileFontHeader{
-	  font-size:32px;
-  }
-}
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
   background-color:#999;
@@ -326,6 +302,8 @@ header .navbar-standard ul.navbar-nav > li > a:not(:hover) {
         display: block;
         visibility: visible;
     }
+	
+
 }
 /* MD */
 @media (min-width: 768px) {
@@ -471,7 +449,7 @@ color:#FFF;
 .modalPopUp {
 	display: none; /* Hidden by default */
 	position: fixed; /* Stay in place */
-	z-index: 100; /* Sit on top */
+	z-index: 100000; /* Sit on top */
 	left: 0;
 	top: 0;
 	width: 100%; /* Full width */
@@ -574,6 +552,40 @@ color:#FFF;
 
 .pricing-item:hover .BorderDiv{
 	display:block;
+}
+
+
+@media only screen and (max-width: 768px) {
+ .paddingTop {
+    padding-top:40px;	
+	padding-bottom:40px;	
+  }
+  .HideInMobile{
+	display:none;
+  }
+  .iFrameDiv{
+	padding-top:40px;	
+	padding-bottom:40px;
+  }
+  .mTextAlign{
+	text-align:center;
+  }
+  
+  .Pricing-toggle-button{
+	margin-bottom:20px;
+	margin:0 auto;
+  }
+  
+  .Pricing-toggle-button:hover{
+	  border:1px solid #AAA;
+  }
+  
+  .mobileFontHeader{
+	  font-size:32px;
+  }
+  .mobile_nodivheight30{
+	  margin-top:0px;
+  }
 }
 
 /*
