@@ -74,14 +74,7 @@ $(document).ready(function(){
 			$("#data_Service2").removeClass("hideDiv");
 			$("#data_Service1").addClass("hideDiv");
 		}
-		
-		/*
-		
-		$("#Service1").toggleClass("serviceActive");
-		$("#Service2").toggleClass("serviceActive");
-		$("#data_Service1").toggleClass("hideDiv");
-		$("#data_Service2").toggleClass("hideDiv");
-		*/
+
 	});
 
 });
@@ -98,5 +91,12 @@ $(document).ready(function(){
 		$("#ModelPopupHeading").html("");
 		$("#ModelPopupData").html("");
 	});
+
+	$("#menuToggler .toggler-icon").click(function(){
+		$(".sliding-menu-wrapper a").hide().delay(300);
+		$(".sliding-menu-wrapper a").fadeIn(700);
+		
+	});
+
 
 });
