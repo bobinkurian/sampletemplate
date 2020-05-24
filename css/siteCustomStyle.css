@@ -83,6 +83,15 @@ header .navbar-standard ul.navbar-nav > li > a:not(:hover) {
 	border-radius:30px;
 }
 
+.serviceActiveOrange
+{
+    background-size: 200% auto;
+    background-image: -webkit-gradient(linear, left top, right top, from(#db6e37), color-stop(51%, #ff8040), to(#db6e37));
+	color:#fff;
+	border-radius:30px;
+}
+
+
 .hideDiv{
 	display:none;
 }

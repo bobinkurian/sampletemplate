@@ -58,12 +58,30 @@ $(document).ready(function(){
 
 	$(".Pricing-toggle-button").click(function(){
 		var serviceId = $(this).attr("id");
+		if(serviceId.indexOf('_') > -1)
+			serviceId = serviceId.split('_')[1];
+		if(serviceId == "Service1")
+		{
+			$("#Service2").removeClass("serviceActive");
+			$("#Service1").addClass("serviceActive");
+			$("#data_Service1").removeClass("hideDiv");
+			$("#data_Service2").addClass("hideDiv");
+		}
+		else
+		{
+			$("#Service1").removeClass("serviceActive");
+			$("#Service2").addClass("serviceActive");
+			$("#data_Service2").removeClass("hideDiv");
+			$("#data_Service1").addClass("hideDiv");
+		}
+		
+		/*
 		
 		$("#Service1").toggleClass("serviceActive");
 		$("#Service2").toggleClass("serviceActive");
 		$("#data_Service1").toggleClass("hideDiv");
 		$("#data_Service2").toggleClass("hideDiv");
-		
+		*/
 	});
 
 });
