@@ -185,11 +185,12 @@ header .navbar-standard ul.navbar-nav > li > a:not(:hover) {
 	background-size: Contain;
     background-repeat: no-repeat;
 	background-position: center; 
+	background-size:100px 100px;
 }
 
-.bg-two {background-image: url(../img/Mail_Us.png);background-size:150px 150px;}
-.bg-three {background-image: url(../img/Meet_Us.png);}
-.bg-four {background-image: url(../img/Locate_Us.jpg);}
+.bg-two {background-image: url(../img/Mail_Us.png);Background-color:#CCC}
+.bg-three {background-image: url(../img/Meet_Us.png);Background-color:#BBB}
+.bg-four {background-image: url(../img/Locate_Us.jpg);Background-color:#DDD}
 
 .parent:hover .child, .parent:focus .child {
     -ms-transform: scale(1.2);
@@ -754,14 +755,14 @@ header.header-appear .nav-btn{
 	margin-left:15px;
 	background:#EEE;
 }
-.SubmenuItemsWrapper > div > div >div:hover {
+.SubmenuItemsWrapper > div > div > div:hover {
 	color:#ff8040;
 	cursor:pointer;
 	background:#EEE;
 }
 
 .rightMenuChild div:hover{
-	color:#ff8040;
+	color:#000;
 }
 
 .SubmenuIcon{
@@ -791,6 +792,10 @@ header.header-appear .nav-btn{
 .rightMenuChild div{
 	padding-top:5px;
 }
+#rightServiceSubmenu:hover .rightMenuChild, #rightServiceSubmenu:focus .rightMenuChild{
+	display:block;
+}
+
 
 .BorderLR{
 	border-left:1px solid #DDD;
@@ -832,6 +837,9 @@ header.header-appear .nav-btn{
  main nav {
 	 width:100%;
 	 right:-100%;
+ }
+ .BorderLR{
+	 border:0px;
  }
 }
 

@@ -94,6 +94,8 @@ $(document).ready(function(){
 
     var navBtn = $('main .nav-btn');
 	$('main nav, #service_submenu').removeAttr("style");
+	$("#rightSubMenuServices").removeAttr("href");
+	
     function toggleNav() {
         navBtn.toggleClass('open');
         $('main nav').toggleClass('open');
