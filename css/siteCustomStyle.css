@@ -800,6 +800,7 @@ header.header-appear .nav-btn{
  main nav {
 	 width:100%;
 	 right:-100%;
+	 background-color:#999;
  }
 }
 
