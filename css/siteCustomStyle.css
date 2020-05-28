@@ -231,7 +231,7 @@ header .navbar-standard ul.navbar-nav > li > a:not(:hover) {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(52,73,94,0.75);
+    background-color: rgba(52,73,94,0.5);
 }
 
 /* Media Queries */
@@ -852,6 +852,9 @@ main nav ul li
  }
  .sidemenu-footer{
 	width: calc(100% - 10rem);
+ }
+ .iFrameDiv{
+	margin-top:-20px;
  }
 }
 
