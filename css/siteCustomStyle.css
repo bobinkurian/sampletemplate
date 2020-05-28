@@ -562,45 +562,6 @@ color:#FFF;
 	display:block;
 }
 
-
-@media only screen and (max-width: 768px) {
- .paddingTop {
-    padding-top:40px;	
-	padding-bottom:40px;	
-  }
-  .HideInMobile{
-	display:none;
-  }
-  .iFrameDiv{
-	padding-top:40px;	
-	padding-bottom:40px;
-  }
-  .mTextAlign{
-	text-align:center;
-  }
-  
-  .Pricing-toggle-button{
-	margin-bottom:20px;
-	margin:0 auto;
-  }
-  
-  .Pricing-toggle-button:hover{
-	  border:1px solid #AAA;
-  }
-  
-  .mobileFontHeader{
-	  font-size:32px;
-  }
-  .mobile_nodivheight30{
-	  margin-top:0px;
-  }
-  
- .main nav {
-	 width:100%;
-	 right:-100%;
- }
-}
-
 .nav-btn {
     width: 26px;
     height: 30px;
@@ -804,4 +765,41 @@ header.header-appear .nav-btn{
 }
 
 
+@media only screen and (max-width: 768px) {
+ .paddingTop {
+    padding-top:40px;	
+	padding-bottom:40px;	
+  }
+  .HideInMobile{
+	display:none;
+  }
+  .iFrameDiv{
+	padding-top:40px;	
+	padding-bottom:40px;
+  }
+  .mTextAlign{
+	text-align:center;
+  }
+  
+  .Pricing-toggle-button{
+	margin-bottom:20px;
+	margin:0 auto;
+  }
+  
+  .Pricing-toggle-button:hover{
+	  border:1px solid #AAA;
+  }
+  
+  .mobileFontHeader{
+	  font-size:32px;
+  }
+  .mobile_nodivheight30{
+	  margin-top:0px;
+  }
+  
+ main nav {
+	 width:100%;
+	 right:-100%;
+ }
+}
 
