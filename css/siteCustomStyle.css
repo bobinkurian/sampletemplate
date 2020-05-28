@@ -858,3 +858,16 @@ main nav ul li
  }
 }
 
+
+.scroll-top-arrow,.scroll-top-arrow:focus{
+	/*background-image:-webkit-gradient(linear,left top,right top,from(#ff8040),color-stop(51%,#c6c600),to(#ff8040)); 
+	background-image:linear-gradient(to right,#ff8040 0%,#c6c600 51%,#ff8040 100%);
+	*/
+	background-image:-webkit-gradient(linear, left top, right top, from(#5192e1), color-stop(51%, #23ced5), to(#5192e1));
+	
+}
+.scroll-top-arrow{
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;}
+
