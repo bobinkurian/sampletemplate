@@ -87,149 +87,147 @@ a:hover,a:active{color:#ff8040;}[type=button],[type=reset],[type=submit],button{
 			
 <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home active nav-item"><a title="Home" href="#home" class="nav-link scroll">Home</a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home active nav-item"><a title="About" href="#About" class="nav-link scroll">About</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home active nav-item">
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home active nav-item hasSubMenu">
 
 	<a title="Services" href="#Services" class="nav-link scroll" onclick="return false;">Services <div class="fa fa-angle-down" style="margin-left:5px;">&nbsp;</div></a>
-	
-	
-		<div id="service_submenu" class="horizontalSubMenuWrapper" style="display:none">
-			<div class="col-md-3 SubmenuWrapper">
-				<div id="OSS" class="HorizontalSubmenu SubmenuActive SubmenuBottomBorder">
-					<div class="SubmenuIcon HorizontalSubmenuOSS">&nbsp;</div>
-					<div class="SubmenuLable">
-						Offensive Security Services
-					</div>
-				</div>
-				<div id="DSS" class="HorizontalSubmenu">
-					<div class="SubmenuIcon HorizontalSubmenuDSS">&nbsp;</div>
-					<div class="SubmenuLable">
-						Defensive Security Services
-					</div>
+	<div id="service_submenu" class="horizontalSubMenuWrapper" style="display:none">
+		<div class="col-md-3 SubmenuWrapper">
+			<div id="OSS" class="HorizontalSubmenu SubmenuActive SubmenuBottomBorder">
+				<div class="SubmenuIcon HorizontalSubmenuOSS">&nbsp;</div>
+				<div class="SubmenuLable">
+					Offensive Security Services
 				</div>
 			</div>
-			<div class="col-md-9 SubmenuItemsWrapper">
-				<div id="child_OSS" class="row">
-					<div class="elementor-row">
-						<div class="col-md-6 SubMenuparent">
-							<span class="SubMenuchild">
-								Web application Black box and Grey box penetration testing
-							</span>
-						</div>
-						<div class="col-md-6 SubMenuparent">
-							<span class="SubMenuchild">
-								IoT and embedded systems security assessment
-							</span>
-						</div>
-					</div>
-					<div class="elementor-row">
-						<div class="col-md-6 SubMenuparent">
-							<span class="SubMenuchild">
-								Mobile Application Security assessment
-							</span>
-						</div>
-						<div class="col-md-6 SubMenuparent">
-							<span class="SubMenuchild">
-								Cloud Services security assessment
-							</span>
-						</div>
-					</div>
-					<div class="elementor-row">
-						<div class="col-md-6 SubMenuparent">
-							<span class="SubMenuchild">
-								OSINT Threat Exposure Assesment
-							</span>
-						</div>
-						<div class="col-md-6 SubMenuparent">
-							<span class="SubMenuchild">
-								Threat Modeling
-							</span>
-						</div>
-					</div>
-					<div class="elementor-row">
-						<div class="col-md-6 SubMenuparent">
-							<span class="SubMenuchild">
-								Infrastructure Vulnerability Assessment & Penetration Testing
-							</span>
-						</div>
-						<div class="col-md-6 SubMenuparent">
-							<span class="SubMenuchild">
-								Wireless Penetration Testing
-							</span>
-						</div>
-					</div>
-					<div class="elementor-row">
-						<div class="col-md-6 SubMenuparent">
-							<span class="SubMenuchild">
-								Red Team Assessment
-							</span>
-						</div>
-						<div class="col-md-6 SubMenuparent">
-							<span class="SubMenuchild">
-								Security Configuration Assessments
-							</span>
-						</div>
-					</div>
-				</div>
-				<div id="child_DSS" class="row hideDiv">
-					<div class="elementor-row">
-						<div class="col-md-6 SubMenuparent">
-							<span class="SubMenuchild">
-								Security Monitoring and Response
-							</span>
-						</div>
-						<div class="col-md-6 SubMenuparent">
-							<span class="SubMenuchild">
-								Threat Intelligence and Security Analytics
-							</span>
-						</div>
-					</div>
-					<div class="elementor-row">
-						<div class="col-md-6 SubMenuparent">
-							<span class="SubMenuchild">
-								SIEM technologies design and implementation
-							</span>
-						</div>
-						<div class="col-md-6 SubMenuparent">
-							<span class="SubMenuchild">
-								Incident Response Program Development
-							</span>
-						</div>
-					</div>
-					<div class="elementor-row">
-						<div class="col-md-6 SubMenuparent">
-							<span class="SubMenuchild">
-								Response Readiness Assessment
-							</span>
-						</div>
-						<div class="col-md-6 SubMenuparent">
-							<span class="SubMenuchild">
-								IR investigation, containment and eradication
-							</span>
-						</div>
-					</div>
-					<div class="elementor-row">
-						<div class="col-md-6 SubMenuparent">
-							<span class="SubMenuchild">
-								Malware Analysis
-							</span>
-						</div>
-						<div class="col-md-6 SubMenuparent">
-							<span class="SubMenuchild">
-								Compromise Assessment
-							</span>
-						</div>
-					</div>
-					<div class="elementor-row">
-						<div class="col-md-6 SubMenuparent">
-							<span class="SubMenuchild">
-								Alert Analysis And Triage
-							</span>
-						</div>
-					</div>
+			<div id="DSS" class="HorizontalSubmenu">
+				<div class="SubmenuIcon HorizontalSubmenuDSS">&nbsp;</div>
+				<div class="SubmenuLable">
+					Defensive Security Services
 				</div>
 			</div>
-		
 		</div>
+		<div class="col-md-9 SubmenuItemsWrapper">
+			<div id="child_OSS" class="row">
+				<div class="elementor-row">
+					<div class="col-md-6 SubMenuparent">
+						<span class="SubMenuchild">
+							Web application Black box and Grey box penetration testing
+						</span>
+					</div>
+					<div class="col-md-6 SubMenuparent">
+						<span class="SubMenuchild">
+							IoT and embedded systems security assessment
+						</span>
+					</div>
+				</div>
+				<div class="elementor-row">
+					<div class="col-md-6 SubMenuparent">
+						<span class="SubMenuchild">
+							Mobile Application Security assessment
+						</span>
+					</div>
+					<div class="col-md-6 SubMenuparent">
+						<span class="SubMenuchild">
+							Cloud Services security assessment
+						</span>
+					</div>
+				</div>
+				<div class="elementor-row">
+					<div class="col-md-6 SubMenuparent">
+						<span class="SubMenuchild">
+							OSINT Threat Exposure Assesment
+						</span>
+					</div>
+					<div class="col-md-6 SubMenuparent">
+						<span class="SubMenuchild">
+							Threat Modeling
+						</span>
+					</div>
+				</div>
+				<div class="elementor-row">
+					<div class="col-md-6 SubMenuparent">
+						<span class="SubMenuchild">
+							Infrastructure Vulnerability Assessment & Penetration Testing
+						</span>
+					</div>
+					<div class="col-md-6 SubMenuparent">
+						<span class="SubMenuchild">
+							Wireless Penetration Testing
+						</span>
+					</div>
+				</div>
+				<div class="elementor-row">
+					<div class="col-md-6 SubMenuparent">
+						<span class="SubMenuchild">
+							Red Team Assessment
+						</span>
+					</div>
+					<div class="col-md-6 SubMenuparent">
+						<span class="SubMenuchild">
+							Security Configuration Assessments
+						</span>
+					</div>
+				</div>
+			</div>
+			<div id="child_DSS" class="row hideDiv">
+				<div class="elementor-row">
+					<div class="col-md-6 SubMenuparent">
+						<span class="SubMenuchild">
+							Security Monitoring and Response
+						</span>
+					</div>
+					<div class="col-md-6 SubMenuparent">
+						<span class="SubMenuchild">
+							Threat Intelligence and Security Analytics
+						</span>
+					</div>
+				</div>
+				<div class="elementor-row">
+					<div class="col-md-6 SubMenuparent">
+						<span class="SubMenuchild">
+							SIEM technologies design and implementation
+						</span>
+					</div>
+					<div class="col-md-6 SubMenuparent">
+						<span class="SubMenuchild">
+							Incident Response Program Development
+						</span>
+					</div>
+				</div>
+				<div class="elementor-row">
+					<div class="col-md-6 SubMenuparent">
+						<span class="SubMenuchild">
+							Response Readiness Assessment
+						</span>
+					</div>
+					<div class="col-md-6 SubMenuparent">
+						<span class="SubMenuchild">
+							IR investigation, containment and eradication
+						</span>
+					</div>
+				</div>
+				<div class="elementor-row">
+					<div class="col-md-6 SubMenuparent">
+						<span class="SubMenuchild">
+							Malware Analysis
+						</span>
+					</div>
+					<div class="col-md-6 SubMenuparent">
+						<span class="SubMenuchild">
+							Compromise Assessment
+						</span>
+					</div>
+				</div>
+				<div class="elementor-row">
+					<div class="col-md-6 SubMenuparent">
+						<span class="SubMenuchild">
+							Alert Analysis And Triage
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+	</div>
 </li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home active nav-item"><a title="Contact" href="#contact" class="nav-link scroll">Contact</a></li>
 
@@ -261,7 +259,7 @@ a:hover,a:active{color:#ff8040;}[type=button],[type=reset],[type=submit],button{
 							</li>
 							<li><div href="#contact" style="font-size: 24px;"><span class="Animate">Contact</span></div></li>
 						</ul>
-						<div class="sidemenu-footer col-md-9" style="normal;color:#FFF;margin-left:-30px" align="center">
+						<div class="sidemenu-footer" style="normal;color:#FFF;" align="center">
 							<a href="https://www.facebook.com/"><i class="fa fa-facebook"></i> </a>
 							<a href="https://www.twitter.com/"><i class="fa fa-twitter"></i> </a>
 							<a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i> </a>
