@@ -92,11 +92,55 @@ $(document).ready(function(){
 		$("#ModelPopupData").html("");
 	});
 
-	$("#menuToggler .toggler-icon").click(function(){
-		$(".sliding-menu-wrapper a").hide().delay(300);
-		$(".sliding-menu-wrapper a").fadeIn(700);
-		
+    var navBtn = $('main .nav-btn');
+	$('main nav').removeAttr("style");
+    function toggleNav() {
+        navBtn.toggleClass('open');
+        $('main nav').toggleClass('open');
+    }
+    navBtn.click(function() {
+        toggleNav();
+    })
+    $('main nav ul li a').click(function(e) {
+        toggleNav();
+    })
+	$(".HorizontalSubmenu").click(function(){
+		var id = $(this).attr("id");
+		$(".HorizontalSubmenu").removeClass("SubmenuActive");
+		$(this).addClass("SubmenuActive");
+		$(".SubmenuItemsWrapper > div").addClass("hideDiv");
+		$("#child_"+id).removeClass("hideDiv");
 	});
-
-
+	
+	$(".SubMenuchild").click(function(){
+		var id = $(this).closest('[id]').attr("id");
+		displayServiceDetails(id);
+	});
+	
+	$(".rightMenuChild div").click(function(){
+		var id = $(this).closest('[id]').attr("id");
+		displayServiceDetails(id);
+	});
+	
+	function displayServiceDetails(parentId)
+	{
+		if(parentId == "child_DSS" || parentId == "child_DSS1")
+		{
+			$("#Service1").removeClass("serviceActive");
+			$("#Service2").addClass("serviceActive");
+			$("#data_Service2").removeClass("hideDiv");
+			$("#data_Service1").addClass("hideDiv");
+		}
+		else
+		{
+			$("#Service2").removeClass("serviceActive");
+			$("#Service1").addClass("serviceActive");
+			$("#data_Service1").removeClass("hideDiv");
+			$("#data_Service2").addClass("hideDiv");
+		}
+		var elmnt = document.getElementById("Services");
+		elmnt.scrollIntoView();
+	}
+	
 });
+
