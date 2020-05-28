@@ -187,8 +187,6 @@ header .navbar-standard ul.navbar-nav > li > a:not(:hover) {
 	background-position: center; 
 }
 
-
-.bg-one {background-image: url(https://media.timeout.com/images/101602611/image.jpg);}
 .bg-two {background-image: url(../img/Mail_Us.png);background-size:150px 150px;}
 .bg-three {background-image: url(../img/Meet_Us.png);}
 .bg-four {background-image: url(../img/Locate_Us.jpg);}
@@ -222,7 +220,6 @@ header .navbar-standard ul.navbar-nav > li > a:not(:hover) {
     bottom: 0;
     right: 0;
     cursor: pointer;
-	margin-top:50px;
 }
 
 .child:before {
@@ -672,7 +669,7 @@ header.header-appear .nav-btn{
 }
 
 .horizontalSubMenuWrapper{
-	Width:700px;
+	Width:800px;
 	height:350px;
 	display:none;
 	background:#FFF;
@@ -681,8 +678,8 @@ header.header-appear .nav-btn{
 	top:76px;
 	right:-100px;
 	font-family: 'Open Sans', sans-serif;
-	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .3);
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
 }
 .menu-item:hover .horizontalSubMenuWrapper{
 	display:block;
@@ -705,6 +702,7 @@ header.header-appear .nav-btn{
 }
 .SubmenuActive{
 	background:#FFF;
+	color:#ff8040;
 }
 .HorizontalSubmenuDSS{
 	background-image: url(../img/DSS.png);
@@ -715,6 +713,22 @@ header.header-appear .nav-btn{
 .HorizontalSubmenu:not(.SubmenuActive):hover {
 	background:#EEE;
 }
+.HorizontalSubmenu:not(.SubmenuActive):hover .SubmenuIcon{
+	-ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.HorizontalSubmenu.SubmenuActive .SubmenuIcon{
+	-ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+
 .HorizontalSubmenu:hover {
 	cursor:pointer;
 }
@@ -726,14 +740,28 @@ header.header-appear .nav-btn{
 	float:left;
 	font-weight:normal;
 	Font-size:14px;
+	padding:5px;
 }
 .SubmenuItemsWrapper > div > div >div{
-	height:70px;
+	flex: 0 0 46%;
+	height:58px;
 	line-height:18px;
+	border:1px solid #DDD;
+	Border-radius:29px;
+	margin-top:5px;
+	margin-bottom:5px;
+	width:90%;
+	margin-left:15px;
+	background:#EEE;
 }
 .SubmenuItemsWrapper > div > div >div:hover {
 	color:#ff8040;
 	cursor:pointer;
+	background:#EEE;
+}
+
+.rightMenuChild div:hover{
+	color:#ff8040;
 }
 
 .SubmenuIcon{
@@ -764,6 +792,10 @@ header.header-appear .nav-btn{
 	padding-top:5px;
 }
 
+.BorderLR{
+	border-left:1px solid #DDD;
+	border-Right:1px solid #DDD;
+}
 
 @media only screen and (max-width: 768px) {
  .paddingTop {
@@ -800,7 +832,6 @@ header.header-appear .nav-btn{
  main nav {
 	 width:100%;
 	 right:-100%;
-	 background-color:#999;
  }
 }
 
