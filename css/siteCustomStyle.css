@@ -594,6 +594,11 @@ color:#FFF;
   .mobile_nodivheight30{
 	  margin-top:0px;
   }
+  
+ .main nav {
+	 width:100%;
+	 right:-100%;
+ }
 }
 
 .nav-btn {
