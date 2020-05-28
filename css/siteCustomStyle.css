@@ -509,12 +509,12 @@ color:#FFF;
 	transform: translate(-50%, -50%);
 }
 
-.customNavLinks li a
+.customNavLinks li div span.Animate
 {
     position: relative;
 }
 
-.customNavLinks li a:before {
+.customNavLinks li div span.Animate:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -527,7 +527,7 @@ color:#FFF;
   transition: all 0.3s ease-in-out;
 }
 
-.customNavLinks li a:hover:before {
+.customNavLinks li div span.Animate:hover:before {
   visibility: visible;
   transform: scaleX(1);
 }
@@ -634,7 +634,7 @@ main nav ul li {
     transition: all 0.3s ease-in-out;
 }
 
-main nav ul li a{
+main nav ul li div{
 	font-size: 24px;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -654,11 +654,11 @@ main nav ul li:nth-child(4) {
 main nav.open ul li {
     margin-left: 0;
 }
-main nav ul li a {
+main nav ul li div {
     text-decoration: none;
     color: #ddd;
 }
-main nav ul li a:hover {
+main nav ul li div:hover {
     color: #fff;
 }
 main nav.open {
@@ -761,9 +761,6 @@ header.header-appear .nav-btn{
 	background:#EEE;
 }
 
-.rightMenuChild div:hover{
-	color:#000;
-}
 
 .SubmenuIcon{
 	Width:100%;
@@ -789,17 +786,36 @@ header.header-appear .nav-btn{
 .rightMenuChild{
 	font-size:15px;
 }
+
+.rightMenuChild div:hover{
+	color:#000;
+}
+
 .rightMenuChild div{
 	padding-top:5px;
+	font-size:15px;
 }
+
 #rightServiceSubmenu:hover .rightMenuChild, #rightServiceSubmenu:focus .rightMenuChild{
 	display:block;
 }
 
+main nav ul li 
+{
+	cursor:pointer;
+}
 
 .BorderLR{
+	/*
 	border-left:1px solid #DDD;
 	border-Right:1px solid #DDD;
+	*/
+}
+
+.sidemenu-footer a{
+	text-decoration:none;
+	color:#FFF;
+	margin-right:10px;
 }
 
 @media only screen and (max-width: 768px) {

@@ -122,6 +122,7 @@ $(document).ready(function(){
 	$(".rightMenuChild div").click(function(){
 		var id = $(this).closest('[id]').attr("id");
 		displayServiceDetails(id);
+		toggleNav();
 	});
 	
 	function displayServiceDetails(parentId)
@@ -144,5 +145,18 @@ $(document).ready(function(){
 		elmnt.scrollIntoView();
 	}
 	
+	$(".customNavLinks main nav ul li div").click(function(){
+		var hRef = $(this).attr("href")
+		if(typeof hRef == "undefined" || hRef == "")
+			return false;
+
+		if(hRef != "#")
+		{
+			window.location = hRef;
+			toggleNav();
+		}
+		
+	});
+
 });
 
