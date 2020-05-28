@@ -869,5 +869,10 @@ main nav ul li
 .scroll-top-arrow{
 	border-radius:50%;
 	-webkit-border-radius:50%;
-	-moz-border-radius:50%;}
+	-moz-border-radius:50%;
+}
+
+.menu-item a{
+	color:#ff8040;
+}
 
