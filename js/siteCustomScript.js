@@ -93,7 +93,7 @@ $(document).ready(function(){
 	});
 
     var navBtn = $('main .nav-btn');
-	$('main nav').removeAttr("style");
+	$('main nav, #service_submenu').removeAttr("style");
     function toggleNav() {
         navBtn.toggleClass('open');
         $('main nav').toggleClass('open');
