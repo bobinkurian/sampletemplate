@@ -190,7 +190,7 @@ header .navbar-standard ul.navbar-nav > li > a:not(:hover) {
 
 
 .bg-one{background-image: url(../img/Mail_Us.png);Background-color:#1e1f1e}
-.bg-two {background-image: url(../img/WhatsApp_us.png);Background-color:#25D366}
+.bg-two {background-image: url(../img/WhatsApp_us.png);Background-color:#1ca34e}
 .bg-three {background-image: url(../img/Meet_Us.png);Background-color:#ea152d}
 .bg-four {background-image: url(../img/Locate_Us.png);Background-color:#f1c50a}
 
@@ -506,9 +506,14 @@ color:#FFF;
 
 .ContactUsInfo{
 	position: absolute;
+	width:80%;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	font-family: 'Open Sans', sans-serif;
+}
+.ContactUsInfo p{
+	font-size:13px;
 }
 
 .customNavLinks li div span.Animate
