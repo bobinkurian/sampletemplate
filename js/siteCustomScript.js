@@ -80,7 +80,6 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-	
 	$(".pricing-item").click(function(){
 		var id = $(this).attr("id");
 		$("#myModal").show();

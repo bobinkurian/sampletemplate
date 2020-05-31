@@ -190,7 +190,7 @@ header .navbar-standard ul.navbar-nav > li > a:not(:hover) {
 
 .bg-two {background-image: url(../img/Mail_Us.png);Background-color:#00bcd4}
 .bg-three {background-image: url(../img/Meet_Us.png);Background-color:#ff8040}
-.bg-four {background-image: url(../img/Locate_Us.jpg);Background-color:#00bcd4}
+.bg-four {background-image: url(../img/Locate_Us.png);Background-color:#00bcd4}
 
 .parent:hover .child, .parent:focus .child {
     -ms-transform: scale(1.2);
