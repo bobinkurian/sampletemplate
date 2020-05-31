@@ -188,9 +188,9 @@ header .navbar-standard ul.navbar-nav > li > a:not(:hover) {
 	background-size:100px 100px;
 }
 
-.bg-two {background-image: url(../img/Mail_Us.png);Background-color:#00bcd4}
-.bg-three {background-image: url(../img/Meet_Us.png);Background-color:#ff8040}
-.bg-four {background-image: url(../img/Locate_Us.png);Background-color:#00bcd4}
+.bg-two {background-image: url(../img/Mail_Us.png);Background-color:#5192e1}
+.bg-three {background-image: url(../img/Meet_Us.png);Background-color:#db6e37}
+.bg-four {background-image: url(../img/Locate_Us.png);Background-color:#f1c50a}
 
 .parent:hover .child, .parent:focus .child {
     -ms-transform: scale(1.2);
