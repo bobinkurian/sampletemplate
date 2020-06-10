@@ -1,6 +1,6 @@
   
 header a.logo img {
-    width: 160px;
+    width: 150px;
 }
 
 header:not(.header-appear) .navbar-standard.light-menu.transparent ul.navbar-nav > li > a {
@@ -862,6 +862,11 @@ main nav ul li
  .iFrameDiv{
 	margin-top:-20px;
  }
+   
+ header a.logo img {
+    width: 125px;
+ }
+
 }
 
 
